@@ -11,8 +11,8 @@ Click **Esc** key at any time to exit the script and stop your computer from aut
 
 1. Download and install [Autohotkey](https://www.autohotkey.com/download/).
 2. Download one of the scripts.
-    * for LaTeX type of *hotstrings* (e.g. `\alpha`): [maptogreek-latex.ahk](https://raw.githubusercontent.com/q2apro/ahk_greekletters/master/maptogreek-latex.ahk)
-    * for single letter *hotstrings* (e.g. `\a`): [maptogreek-short.ahk](https://raw.githubusercontent.com/q2apro/ahk_greekletters/master/maptogreek-short.ahk)
+    * for LaTeX type of *hotstrings* (e.g. `\alpha`): [maptogreek-latex.ahk](https://github.com/saraya209/ahk_greekletters/blob/master/maptogreek-latex.ahk)
+    * for single letter *hotstrings* (e.g. `\a`): [maptogreek-short.ahk](https://github.com/saraya209/ahk_greekletters/blob/master/maptogreek-short.ahk)
 3. Double-click the script file to run it.
 4. Type any one of the *hotstings* in any application. They should immediately be converted to Greek letters.
 
