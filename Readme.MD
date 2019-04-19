@@ -1,66 +1,74 @@
-## Autohotkey for Greek Letters
+## AutoHotkey for Greek Letters
 
-This AHK script is a nice solution for the question ["Fastest way to type greek letters like α or β?"](https://superuser.com/q/936999/169199). After installing the script you simply activate <kbd>⇪ Capslock</kbd>, then you type for instance the key <kbd>a</kbd> which turns immediately into <kbd>α</kbd>. As fast as it can be. 
+These AHK scripts create keyboard shortcuts ("*hotstrings*") to print Greek letters (α, β, etc.). The *hotstrings* are not application-specific and they will work in any application!
 
-To get capitalized letters, activate <kbd>⇪ Capslock</kbd>, then hold <kbd>Shift</kbd> and press the letter you need. 
+## How to Use
+Using the script is pretty easy, after running the script type any of the *hotstring* commands  and they will immediately be replaced by the respective Greek letters. For example, when you type `\alpha` it will be auto-replaced by `α`.
 
-Credits to [Exaskryz](https://autohotkey.com/boards/viewtopic.php?f=5&t=25218).
+Click **Esc** at any time to exit the script and stop your computer from auto-replacing. More details on how to use AutoHotkey scripts can be found in the [AutoHotkey documentation](https://www.autohotkey.com/docs/Tutorial.htm).
 
-## AHK Installation
+## Installation
 
-  1. Download [Autohotkey](https://www.autohotkey.com/download/) and install it. 
-  2. Download the [script greekletters.ahk](https://raw.githubusercontent.com/q2apro/ahk_greekletters/master/greekletters.ahk)
-  3. Put the script into a folder of your choice. 
-  4. Start the script greekletters.ahk 
+  1. Download and install [Autohotkey](https://www.autohotkey.com/download/).
+  2. Download one of the scripts.
+    - [maptogreek-latex.ahk](https://raw.githubusercontent.com/q2apro/ahk_greekletters/master/maptogreek-latex.ahk) for LaTeX type of *hotstrings* (e.g. `\alpha`).
+    - [maptogreek-short.ahk](https://raw.githubusercontent.com/q2apro/ahk_greekletters/master/maptogreek-short.ahk) for single letter *hotstrings* (e.g. `\a`).
+  4. Double-click the script file to run it
+  5. Type any one of the *hotstings* in any application. They should immediately be converted to Greek letters.
+  6. Hit the **Esc** key when you want to terminate the script.
 
-## Key Mapping 
-
-a → α (Alpha)
-
-b → β (Beta)
-
-c → γ (Gamma)
-
-d → δ (Delta)
-
-e → ε (Epislon)
-
-z → ζ (Zeta)
-
-h → η (Eta)
-
-j → θ (Theta)
-
-i → ι (Iota)
-
-k → κ (Kappa)
-
-l → λ (Lambda)
-
-m → μ (Mu)
-
-n → ν (Nu)
-
-q → ξ (Xi)
-
-o → ο (Omicron)
-
-p → π (Pi)
-
-r → ρ (Rho)
-
-s → σ (Sigma)
-
-ALT + s → ς (Final Sigma)
-
-t → τ (Tau)
-
-y → υ (Upsilon)
-
-f → φ (Phi)
-
-x → χ (Chi)
-
-u → ψ (Psi)
-
-w → ω (Omega)
+## Key Mapping
+| ﻿Symbol | Name           | Unicode  | LaTeX hotstring | Short hotstring |
+|--------|----------------|----------|-----------------|-----------------|
+| α      | alpha          | {U+03B1} | \alpha          | \a              |
+| Α      | Alpha          | {U+0391} | \Alpha          | \A              |
+| β      | beta           | {U+03B2} | \beta           | \b              |
+| Β      | Beta           | {U+0392} | \Beta           | \B              |
+| γ      | gamma          | {U+03B3} | \gamma          | \g              |
+| Γ      | Gamma          | {U+0393} | \Gamma          | \G              |
+| δ      | delta          | {U+03B4} | \delta          | \d              |
+| Δ      | Delta          | {U+0394} | \Delta          | \D              |
+| ε      | epislon        | {U+03B5} | \varepsilon     | /e              |
+| ϵ      | Lunate epsilon | {U+03F5} | \epsilon        | \e              |
+| Ε      | Epislon        | {U+0395} | \Epislon        | \E              |
+| ζ      | zeta           | {U+03B6} | \zeta           | \z              |
+| Ζ      | Zeta           | {U+0396} | \Zeta           | \Z              |
+| η      | eta            | {U+03B7} | \eta            | \h              |
+| Η      | Eta            | {U+0397} | \Eta            | \H              |
+| θ      | theta          | {U+03B8} | \theta          | \j              |
+| ϑ      | theta          | {U+03D1} | \vartheta       | /j              |
+| Θ      | Theta          | {U+0398} | \Theta          | \J              |
+| ι      | iota           | {U+03B9} | \iota           | \i              |
+| Ι      | Iota           | {U+0399} | \Iota           | \I              |
+| κ      | kappa          | {U+03BA} | \kappa          | \k              |
+| Κ      | Kappa          | {U+039A} | \Kappa          | \K              |
+| λ      | lambda         | {U+03BB} | \lambda         | \l              |
+| Λ      | Lambda         | {U+039B} | \Lambda         | \L              |
+| μ      | mu             | {U+03BC} | \mu             | \m              |
+| Μ      | Mu             | {U+039C} | \Mu             | \M              |
+| ν      | nu             | {U+03BD} | \nu             | \n              |
+| Ν      | Nu             | {U+039D} | \Nu             | \N              |
+| ξ      | xi             | {U+03BE} | \xi             | \q              |
+| Ξ      | Xi             | {U+039E} | \Xi             | \Q              |
+| ο      | omicron        | {U+03BF} | \omicron        | \o              |
+| Ο      | Omicron        | {U+039F} | \Omicron        | \O              |
+| π      | pi             | {U+03C0} | \pi             | \p              |
+| Π      | Pi             | {U+03A0} | \Pi             | \P              |
+| ρ      | rho            | {U+03C1} | \rho            | \r              |
+| Ρ      | Rho            | {U+03A1} | \Rho            | \R              |
+| σ      | sigma          | {U+03C3} | \sigma          | \s              |
+| ς      | final sigma    | {U+03C2} | \varsigma       | /s              |
+| Σ      | Sigma          | {U+03A3} | \Sigma          | \S              |
+| τ      | tau            | {U+03C4} | \tau            | \t              |
+| Τ      | Tau            | {U+03A4} | \Tau            | \T              |
+| υ      | upsilon        | {U+03C5} | \upsilon        | \y              |
+| Υ      | Upsilon        | {U+03A5} | \Upsilon        | \Y              |
+| φ      | phi            | {U+03C6} | \phi            | \f              |
+| ϕ      | phi            | {U+03D5} | \varphi         | /f              |
+| Φ      | Phi            | {U+03A6} | \Phi            | \F              |
+| χ      | chi            | {U+03C7} | \chi            | \x              |
+| Χ      | Chi            | {U+03A7} | \Chi            | \X              |
+| ψ      | psi            | {U+03C8} | \psi            | \u              |
+| Ψ      | Psi            | {U+03A8} | \Psi            | \U              |
+| ω      | omega          | {U+03C9} | \omega          | \w              |
+| Ω      | Omega          | {U+03A9} | \Omega          | \W              |
