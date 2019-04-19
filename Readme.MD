@@ -1,22 +1,24 @@
-## AutoHotkey for Greek Letters
+## Keyboard shortcuts to write Greek symbols
 
-These AHK scripts create keyboard shortcuts ("*hotstrings*") to print Greek letters (α, β, etc.). The *hotstrings* are not application-specific and they will work in any application!
+These AutoHotkey scripts create keyboard shortcuts ("*hotstrings*") to write Greek letters and symbols (α, β, etc.). The *hotstrings* are not application-specific and they will work in any application!
 
 ## How to Use
 Using the script is pretty easy, after running the script type any of the *hotstring* commands  and they will immediately be replaced by the respective Greek letters. For example, when you type `\alpha` it will be auto-replaced by `α`.
 
-Click **Esc** key at any time to exit the script and stop your computer from auto-replacing. More details on how to use AutoHotkey scripts can be found in the [AutoHotkey documentation](https://www.autohotkey.com/docs/Tutorial.htm).
+Hit the **Esc** key at any time to terminate the script and stop your computer auto-replacing. For more details see the [AutoHotkey documentation](https://www.autohotkey.com/docs/Tutorial.htm).
 
 ## Installation
-
 1. Download and install [Autohotkey](https://www.autohotkey.com/download/).
 2. Download one of the scripts.
-    * for LaTeX type of *hotstrings* (e.g. `\alpha`): [maptogreek-latex.ahk](https://github.com/saraya209/ahk_greekletters/blob/master/maptogreek-latex.ahk)
+    * for LaTeX type *hotstrings* (e.g. `\alpha`): [maptogreek-latex.ahk](https://github.com/saraya209/ahk_greekletters/blob/master/maptogreek-latex.ahk)
     * for single letter *hotstrings* (e.g. `\a`): [maptogreek-short.ahk](https://github.com/saraya209/ahk_greekletters/blob/master/maptogreek-short.ahk)
 3. Double-click the script file to run it.
-4. Type any one of the *hotstings* in any application. They should immediately be converted to Greek letters.
+4. In any application, type any one of the *hotstings* and they should immediately be converted to the Greek letters.
 
 ## Key Mapping
+
+The keyboard shortcuts (*hotstrings*) for the LaTeX and single letter scripts:
+
 | ﻿Symbol | Name           | Unicode  | LaTeX hotstring | Short hotstring |
 |--------|----------------|----------|-----------------|-----------------|
 | α      | alpha          | {U+03B1} | \alpha          | \a              |
