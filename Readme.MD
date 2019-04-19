@@ -5,17 +5,18 @@ These AHK scripts create keyboard shortcuts ("*hotstrings*") to print Greek lett
 ## How to Use
 Using the script is pretty easy, after running the script type any of the *hotstring* commands  and they will immediately be replaced by the respective Greek letters. For example, when you type `\alpha` it will be auto-replaced by `α`.
 
-Click **Esc** at any time to exit the script and stop your computer from auto-replacing. More details on how to use AutoHotkey scripts can be found in the [AutoHotkey documentation](https://www.autohotkey.com/docs/Tutorial.htm).
+Click **Esc** key at any time to exit the script and stop your computer from auto-replacing. More details on how to use AutoHotkey scripts can be found in the [AutoHotkey documentation](https://www.autohotkey.com/docs/Tutorial.htm).
 
 ## Installation
 
   1. Download and install [Autohotkey](https://www.autohotkey.com/download/).
   2. Download one of the scripts.
+
     - [maptogreek-latex.ahk](https://raw.githubusercontent.com/q2apro/ahk_greekletters/master/maptogreek-latex.ahk) for LaTeX type of *hotstrings* (e.g. `\alpha`).
     - [maptogreek-short.ahk](https://raw.githubusercontent.com/q2apro/ahk_greekletters/master/maptogreek-short.ahk) for single letter *hotstrings* (e.g. `\a`).
-  4. Double-click the script file to run it
-  5. Type any one of the *hotstings* in any application. They should immediately be converted to Greek letters.
-  6. Hit the **Esc** key when you want to terminate the script.
+
+  3. Double-click the script file to run it.
+  4. Type any one of the *hotstings* in any application. They should immediately be converted to Greek letters.
 
 ## Key Mapping
 | ﻿Symbol | Name           | Unicode  | LaTeX hotstring | Short hotstring |
